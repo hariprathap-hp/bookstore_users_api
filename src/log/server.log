@@ -1,0 +1,2 @@
+{"level":"info","time":"2021-09-14T09:28:09.330+0530","msg":"user created is successful with","user_id":45,"firstname":"hariprathap"}
+{"level":"error","time":"2021-09-14T09:29:28.111+0530","msg":"saving of the user failed with","error":"internal server error"}
