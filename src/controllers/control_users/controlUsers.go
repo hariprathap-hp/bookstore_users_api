@@ -6,11 +6,11 @@ import (
 	"strconv"
 
 	"github.com/gin-gonic/gin"
-	"github.com/hari/bookstore_oauth_go/oauth"
-	"github.com/hari/bookstore_users_api/src/domains/domain_user"
-	"github.com/hari/bookstore_users_api/src/log/zapper"
-	"github.com/hari/bookstore_users_api/src/services/serviceUser"
-	"github.com/hari/bookstore_users_api/src/utils/errors"
+	"github.com/hariprathap-hp/bookstore_oauth_go/oauth"
+	"github.com/hariprathap-hp/bookstore_users_api/src/domains/domain_user"
+	"github.com/hariprathap-hp/bookstore_users_api/src/log/zapper"
+	"github.com/hariprathap-hp/bookstore_users_api/src/services/serviceUser"
+	"github.com/hariprathap-hp/bookstore_users_api/src/utils/errors"
 )
 
 func getUserID(c *gin.Context) int64 {

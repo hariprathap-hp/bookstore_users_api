@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/hari/bookstore_users_api/src/data_resource/dbPostgres"
-	"github.com/hari/bookstore_users_api/src/utils/errors"
+	"github.com/hariprathap-hp/bookstore_users_api/src/data_resource/dbPostgres"
+	"github.com/hariprathap-hp/bookstore_users_api/src/utils/errors"
 )
 
 const (

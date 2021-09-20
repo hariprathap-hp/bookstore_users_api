@@ -3,7 +3,7 @@ package domain_user
 import (
 	"strings"
 
-	"github.com/hari/bookstore_users_api/src/utils/errors"
+	"github.com/hariprathap-hp/bookstore_users_api/src/utils/errors"
 )
 
 type LoginUser struct {

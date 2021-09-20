@@ -1,10 +1,10 @@
 package serviceUser
 
 import (
-	"github.com/hari/bookstore_users_api/src/domains/domain_user"
-	"github.com/hari/bookstore_users_api/src/utils/cryptoUtil"
-	"github.com/hari/bookstore_users_api/src/utils/dateUtil"
-	"github.com/hari/bookstore_users_api/src/utils/errors"
+	"github.com/hariprathap-hp/bookstore_users_api/src/domains/domain_user"
+	"github.com/hariprathap-hp/bookstore_users_api/src/utils/cryptoUtil"
+	"github.com/hariprathap-hp/bookstore_users_api/src/utils/dateUtil"
+	"github.com/hariprathap-hp/bookstore_users_api/src/utils/errors"
 )
 
 func GetByID(id int64) (*domain_user.User, *errors.RestErr) {

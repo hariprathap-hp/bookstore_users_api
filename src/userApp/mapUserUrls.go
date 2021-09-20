@@ -1,6 +1,6 @@
 package userApp
 
-import "github.com/hari/bookstore_users_api/src/controllers/control_users"
+import "github.com/hariprathap-hp/bookstore_users_api/src/controllers/control_users"
 
 func mapUrls() {
 	router.POST("/users/", control_users.SaveUser)
